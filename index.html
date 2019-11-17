@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,50 +8,290 @@
     <title>Ba-starter</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,600,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/app.css">
+
 
     <link rel="icon" href="favicon.ico">
 </head>
+
 <body>
+    <div class="ba-banner">
+        <section class="ba-hero">
+            <div class="container ba-hero__wrapper">
+                <div class="ba-hero__top">
+                    <a href="#" class="ba-logo">Wheels</a>
+                    <button class="ba-menu-btn">
+                        Menu
+                        <div class="ba-menu-btn__lines">
+                            <span class="ba-menu-btn__line"></span>
+                            <span class="ba-menu-btn__line"></span>
+                            <span class="ba-menu-btn__line"></span>
+                        </div>
+                    </button>
+                </div>
 
-    <header class="ba-header">
-        <div class="container">
+                <div class="ba-hero__middle">
+                    <h1 class="ba-hero__title">Welcome to wheels</h1>
+                    <div class="ba-hero__text">
+                        <p>
+                            Your free psd template <br>
+                            perfect for your next big idea
+                        </p>
+                        <small>
+                            <i>by Pawel Betkowski</i>
+                        </small>
+                    </div>
+                </div>
 
-            <a href="#" class="ba-logo"></a>
+                <div class="ba-hero__bottom">
+                    <a href="#about" class="ba-hero__scroll"></a>
+                </div>
+            </div>
+        </section>
 
-            <nav>
-                <ul class="ba-menu">
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                </ul>
-            </nav>
 
-        </div>
-    </header>
+        <header class="ba-header">
+            <div class="container ba-header-wrapper">
+
+                <a href="#" class="ba-logo">Wheels</a>
+
+                <nav>
+                    <ul class="ba-menu">
+                        <li class="ba-menu__item">
+                            <a href="#" class="ba-menu__link">about us</a>
+                        </li>
+                        <li class="ba-menu__item">
+                            <a href="#" class="ba-menu__link">products</a>
+                        </li>
+                        <li class="ba-menu__item">
+                            <a href="#" class="ba-menu__link">services</a>
+                        </li>
+                        <li class="ba-menu__item">
+                            <a href="#" class="ba-menu__link">our team</a>
+                        </li>
+                        <li class="ba-menu__item">
+                            <a href="#" class="ba-menu__link">blog</a>
+                        </li>
+                        <li class="ba-menu__item">
+                            <a href="#" class="ba-menu__link">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+    </div>
 
     <main>
-        <section class="ba-section">
-            <div class="container">
+        <section class="ba-section ba-about">
+            <div class="container ba-about-wrapper">
+                <div class="ba-section-header">
+                    <h2 class="ba-section__title">About us</h2>
+                    <p class="ba-section__desc">
+                        Let’s talk about what makes your company great.
+                    </p>
+                </div>
+
+                <div class="ba-text">
+                    <img src="img/bike.png" alt="bike icon">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos consectetur, enim
+                        necessitatibus repudiandae amet dicta assumenda dolorem? Consequuntur non fugiat expedita itaque
+                        sed, ipsum qui eveniet optio distinctio quibusdam laudantium ipsa mollitia provident sunt
+                        commodi molestias nihil labore temporibus asperiores.
+                    </p>
+                </div>
 
             </div>
         </section>
+
+        <section class="ba-section ba-statistics">
+            <div class="container ba-statistics-wrapper">
+                <div class="ba-section-header">
+                    <h2 class="ba-section__title ba-section__title_white">some statistics</h2>
+                    <p class="ba-section__desc">
+                        Showing what your company already acomplished is always a good selling point.
+                    </p>
+                </div>
+
+                <div class="ba-statistics__info">
+                    <div class="ba-statistics__desc">
+                        <span class="ba-statistics__count">409</span>
+                        <h3 class="ba-statistics__title">bikes sold</h3>
+                    </div>
+                    <div class="ba-statistics__desc">
+                        <span class="ba-statistics__count">2012</span>
+                        <h3 class="ba-statistics__title">year the company started</h3>
+                    </div>
+                    <div class="ba-statistics__desc">
+                        <span class="ba-statistics__count">0</span>
+                        <h3 class="ba-statistics__title">unsatisfied customers</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ba-section ba-products">
+            <div class="container ba-products-wrapper">
+                <div class="ba-section-header">
+                    <h2 class="ba-section__title">featured products</h2>
+                    <p class="ba-section__desc">
+                        Your chance to shine
+                    </p>
+                </div>
+
+                <div class="ba-row">
+                    <div class="ba-col-4">
+                        <div class="ba-product">
+                            <div class="ba-product__thumb">
+                                <img src="img/bike-1.png" alt="orange bike" class="ba-product__img">
+                            </div>
+
+                            <div class="ba-product__info">
+                                <h3 class="ba-product__title">
+                                    orangez
+                                </h3>
+                                <div class="ba-product__price">$399</div>
+                                <a href="#" class="ba-product__link">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ba-col-4">
+                        <div class="ba-product">
+                            <div class="ba-product__thumb">
+                                <img src="img/bike-2.png" alt="green bike" class="ba-product__img">
+                            </div>
+
+                            <div class="ba-product__info">
+                                <h3 class="ba-product__title">
+                                    green devil
+                                </h3>
+                                <div class="ba-product__price">$399</div>
+                                <a href="#" class="ba-product__link">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ba-col-4">
+                        <div class="ba-product">
+                            <div class="ba-product__thumb">
+                                <img src="img/bike-3.png" alt="blue bike" class="ba-product__img">
+                            </div>
+
+                            <div class="ba-product__info">
+                                <h3 class="ba-product__title">
+                                    blue lagoon
+                                </h3>
+                                <div class="ba-product__price">$399</div>
+                                <a href="#" class="ba-product__link">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ba-col-4">
+                        <div class="ba-product">
+                            <div class="ba-product__thumb">
+                                <img src="img/bike-4.png" alt="pink bike" class="ba-product__img">
+                            </div>
+
+                            <div class="ba-product__info">
+                                <h3 class="ba-product__title">
+                                    pink lady
+                                </h3>
+                                <div class="ba-product__price">$399</div>
+                                <a href="#" class="ba-product__link">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ba-col-4">
+                        <div class="ba-product">
+                            <div class="ba-product__thumb">
+                                <img src="img/bike-5.png" alt="purple bike" class="ba-product__img">
+                            </div>
+
+                            <div class="ba-product__info">
+                                <h3 class="ba-product__title">
+                                    purple rain
+                                </h3>
+                                <div class="ba-product__price">$399</div>
+                                <a href="#" class="ba-product__link">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ba-col-4">
+                        <div class="ba-product">
+                            <div class="ba-product__thumb">
+                                <img src="img/bike-6.png" alt="silver bike" class="ba-product__img">
+                            </div>
+
+                            <div class="ba-product__info">
+                                <h3 class="ba-product__title">
+                                    the mist
+                                </h3>
+                                <div class="ba-product__price">$399</div>
+                                <a href="#" class="ba-product__link">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="ba-section ba-team">
+            <div class="container ba-team-wrapper">
+                <div class="ba-section-header">
+                    <h2 class="ba-section__title">Meet the team</h2>
+                    <p class="ba-section__desc">
+                        people who make the magic happen.
+                    </p>
+                </div>
+
+                <div class="ba-row">
+                    <div class="ba-col-4">
+                        <div class="ba-teammate">
+                            <div class="ba-teammate__thumb">
+                                <img src="img/ian.jpg" alt="Ian" class="ba-teammate__img">
+                            </div>
+                            <h2 class="ba-section__title">Ian</h2>
+                            <p class="ba-section__desc ba-section__desc_uppercase">
+                                founder, ceo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ba-col-4">
+                        <div class="ba-teammate">
+                            <div class="ba-teammate__thumb">
+                                <img src="img/sarah.jpeg" alt="Sarah" class="ba-teammate__img">
+                            </div>
+                            <h2 class="ba-section__title">sarah</h2>
+                            <p class="ba-section__desc ba-section__desc_uppercase">
+                                designer
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ba-col-4">
+                        <div class="ba-teammate">
+                            <div class="ba-teammate__thumb">
+                                <img src="img/juan.jpeg" alt="Juan" class="ba-teammate__img">
+                            </div>
+                            <h2 class="ba-section__title">juan</h2>
+                            <p class="ba-section__desc ba-section__desc_uppercase">
+                                office wizard
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
-    
+
     <footer class="ba-footer">
         <div class="container">
-            
+
         </div>
     </footer>
 
 </body>
+
 </html>
