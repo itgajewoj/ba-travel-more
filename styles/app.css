@@ -198,14 +198,14 @@ small {
   text-align: center;
   margin-bottom: 1rem; }
 
-.ba-section__title {
+.ba-section__title, .ba-team-member__name {
   font-size: 1.875rem;
   font-weight: 800; }
 
 .ba-section__title_white {
   color: #fff; }
 
-.ba-section__desc {
+.ba-section__desc, .ba-team-member__position {
   font-size: 1.125rem;
   font-weight: 600;
   margin: .5rem; }
@@ -277,13 +277,66 @@ small {
 
 .ba-team {
   background-color: #ededed;
-  padding: 3rem 0;
+  padding: 2rem 0;
   color: #1e1e1e; }
-  .ba-teammate {
+  .ba-team-member {
     text-align: center;
-    margin: 1rem 0; }
-    .ba-teammate__thumb {
-      padding: 1rem; }
-    .ba-teammate__img {
-      max-width: 100%;
+    text-transform: uppercase; }
+    .ba-team-member__thumb {
+      width: 216px;
+      height: 216px;
+      overflow: hidden;
+      margin: 1rem auto;
       border-radius: 50%; }
+    .ba-team-member__img {
+      border-radius: 50%;
+      max-width: 100%;
+      transition: transform .3s; }
+      .ba-team-member__img:hover {
+        transform: scale(1.2); }
+
+.ba-social {
+  text-align: center;
+  padding: 2rem; }
+  .ba-social__thumb {
+    width: 100%; }
+  .ba-social__img {
+    max-width: 100%; }
+  .ba-social__text {
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem 0; }
+  .ba-social__link {
+    color: inherit; }
+
+.ba-col_padding {
+  padding: 1rem 0; }
+
+.ba-footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding-top: 2rem; }
+  .ba-footer__info {
+    text-align: left;
+    padding: 3rem 0; }
+  .ba-footer__title {
+    color: #fff;
+    font-size: 1.125rem; }
+  .ba-footer__links {
+    list-style: none;
+    padding: 0; }
+  .ba-footer__link {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 1.125rem; }
+
+.ba-media {
+  list-style: none;
+  padding: 0; }
+  .ba-media__item {
+    display: inline; }
+  .ba-media__link {
+    text-decoration: none; }
